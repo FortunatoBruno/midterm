@@ -1,0 +1,219 @@
+style.css
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* My css styles */
+
+body {
+	background-color:#aad4cf;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: black;
+	}
+
+h1 {
+	font-size: 64px;
+	color: white;
+	position:absolute;
+	text-align:center;
+	width: 100%;
+	top: 200px; 
+	}
+
+h2 {font-size: 35px;}
+
+h3 {font-size: 29px;}
+
+header, footer {
+	width: 1024px;
+	overflow: hidden;
+	margin: 0 auto;
+	position: relative;
+	background:#d4e8e7;
+	}
+
+.img{
+	width: 1024px;
+	height: 341px;
+	position:absolute;
+	top: 0; left: 0;
+	}
+
+.navbar {
+	width: 100%;
+	background-color: #555;
+	margin-top: 344px;
+	}
+	  
+.navbar a {
+	float: left;
+	color: black;
+	text-decoration: none;
+	font-size: 26px;
+	text-align: center;
+	width: 340px;
+	border-right: 1px solid black;
+	padding-top: 9px;
+	padding-bottom: 10px;
+	}
+	
+.navbar a:hover {color:cornflowerblue;}
+	
+.navbar a:last-child {border-right: none;}
+
+.container{
+	padding-top: 35px;
+	width: 1024px;
+	overflow: hidden;
+	margin: 0 auto;
+	position: relative;
+	background:#d4e8e7;
+	}
+
+main article{
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	}
+
+main article img{
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 12px;
+	margin-top: 18px;
+	}
+
+main article p{
+	margin-top: 18px;
+	margin-bottom: 36px;
+	line-height: 143%;
+	}
+
+.clear {clear: both;}
+
+main article ul {
+	list-style-type: disc;
+	padding-top: 16px;
+	padding-left:15px;
+	padding-bottom: 27px;
+
+	}
+
+.contact{
+	padding-bottom: 14px;
+	margin-left: 10px;
+	}
+
+
+section form{
+	border: 1px solid black;
+	padding-left: 16px;
+	padding-top: 35px;
+	padding-bottom: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+	}
+
+form p label{font-size: 18px;}
+
+#yname{
+	margin-top: 9px;
+	margin-bottom: 4px;
+	width: 961px;
+	height: 24px;
+	}
+
+#yemail{
+	margin-top: 8px;
+	margin-bottom: 3px;
+	width: 961px;
+	height: 25px;
+	}
+
+#ymsg{
+	margin-top: 9px;
+	margin-bottom: 4px;
+	width: 961px;
+	height: 94px;
+	}
+
+#question{
+	font-size: 22px;
+	margin-top: 3px;
+	margin-bottom: 29px;
+	}	
+ 
+.input{
+	font-size: 19px;
+	color: black;
+	}
+
+.button {
+	background-color:#d4e8e7;
+	border: 1px solid black;
+	color: black;
+	padding: 12px 11px;
+	margin-top: 17px;
+	margin-bottom: 1px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 11px;
+	cursor: pointer;
+	}
+
+footer{
+	text-align: right;
+	padding-top: 35px;
+	padding-bottom: 37px;
+	}
+
+	footer p{ padding-right: 32px;}
